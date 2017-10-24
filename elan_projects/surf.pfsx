@@ -81,10 +81,10 @@
         <Float>0.5</Float>
     </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>551805</Long>
+        <Long>551800</Long>
     </pref>
     <pref key="MediaTime">
-        <Long>558364</Long>
+        <Long>556551</Long>
     </pref>
     <prefGroup key="TierColors">
         <pref key="default">

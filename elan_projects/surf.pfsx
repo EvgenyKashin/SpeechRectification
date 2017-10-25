@@ -16,6 +16,12 @@
     <pref key="SelectionEndTime">
         <Long>558064</Long>
     </pref>
+    <pref key="ExportTabDialog.SelectTiersMode">
+        <String>Tier</String>
+    </pref>
+    <prefList key="ExportTabDialog.TierOrder">
+        <String>default</String>
+    </prefList>
     <pref key="LayoutManager.CurrentMode">
         <Int>1</Int>
     </pref>
@@ -51,6 +57,9 @@
             <Int>75</Int>
         </pref>
     </prefGroup>
+    <prefList key="ExportTabDialog.selectedTiers">
+        <String>default</String>
+    </prefList>
     <prefList key="CommentViewer.Columns.Order">
         <String>Start Time</String>
         <String>End Time</String>
@@ -101,4 +110,8 @@
         <String>Sender</String>
         <String>Recipient</String>
     </prefList>
+    <pref key="TimeLineViewer.HorizontalScrollBarVisible">
+        <Boolean>false</Boolean>
+    </pref>
+    <prefList key="ExportTabDialog.HiddenTiers"/>
 </preferences>

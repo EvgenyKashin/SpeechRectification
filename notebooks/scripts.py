@@ -3,6 +3,7 @@ import os
 import librosa
 import re
 import pandas as pd
+import numpy as np
 
 def get_elan_annotations(paths):
     dfs = []

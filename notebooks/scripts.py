@@ -68,7 +68,7 @@ def get_unlabel_data(annotation, audio, labels, sr):
     return data
 
 def find_annotation_paths(ext='.txt'):
-    return glob('../annotations/*' + ext)
+    return sorted(glob('../annotations/*' + ext))
 
 def find_audio_from_annotations_paths(ann_ps):
     audio_paths = []
